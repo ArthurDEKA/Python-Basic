@@ -1,5 +1,6 @@
 # Projeto GotchaTube - downloader de video do youtube
 from pytube import YouTube
+import os
 from tkinter import *
 import customtkinter
 
@@ -11,15 +12,22 @@ def clickBaixar():
     stream = video.streams.get_highest_resolution()
     stream.download(output_path = dir_saida)
 
+#função que localiza automáticamente o desktop do usuário
+def LocalizarDesktop():
+    DesktopPath = os.path.expanduser("~/Desktop")
+    EntradaDiretorio.insert(0, DesktopPath)
+
 #Propriedades da Main Window
 window = Tk()
 window.title("GotchaTube!")
+window.iconbitmap(r'archives\Icon.ico')
 window.geometry("600x200")
 window.resizable(width = False ,height = False)
 window.configure(bg="#ededed")
 
+
 #atribuição da logo do GotchaTube
-img = PhotoImage(file="GotchaTube_logo.png")
+img = PhotoImage(file="archives\GotchaTube_logo.png")
 
 #criação dos elementos da GUI
 Label_Logo = Label(window, image=img)
@@ -39,11 +47,14 @@ Button_Baixar = customtkinter.CTkButton(master= window,
                                             bg_color="#ededed",
                                             fg_color= "#202020")
 
+#executa a função LocalizarDesktop
+LocalizarDesktop()
+
 #Organização dos elementos da GUI
 EntradaURL.place(x= 235, y= 35)
 EntradaDiretorio.place(x=235, y= 80)
 Button_Baixar.place(x=235, y=136)
-Label_Logo.place(x= 15, y= 30)
+Label_Logo.place(x= 15, y= 32)
 
 #roda o loop principal
 window.mainloop()
