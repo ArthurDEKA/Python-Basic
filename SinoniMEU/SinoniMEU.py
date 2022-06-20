@@ -16,6 +16,7 @@ def PesquisaSinonimos():
 #Propriedades da Main Window
 window = Tk()
 window.title("SinôniMEU")
+window.iconbitmap(r'SinoniMEU_archives\SinoniMEU_lcon.ico')
 window.geometry("340x544+160+50")
 window.resizable(width = False ,height = False)
 window.configure(bg="#b18f5e")
