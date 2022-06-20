@@ -5,9 +5,9 @@ Projetos disponíveis no repositório:
 
 * GotchaTube:
 
-![screenshot_gotchatube](https://user-images.githubusercontent.com/97618574/174688657-7f010df7-1805-402b-9712-aa8bbfac7439.png)
+![screenshot_gotchatube](https://user-images.githubusercontent.com/97618574/174690243-6ee808b7-25ac-4d26-8073-7d8d34ab1d54.png)
 ___
-* SinoniMEU:
+* SinôniMEU:
 
 ![screenshot_sinonimeu](https://user-images.githubusercontent.com/97618574/174688210-1bb3717d-d716-4eb8-be2a-7cf912b5fca0.jpg)
 ___
