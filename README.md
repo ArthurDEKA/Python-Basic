@@ -1,5 +1,17 @@
 # Python-Basic
- Repositório destinado aos projetos pequenos feitos em Python
+ Repositório destinado aos projetos pequenos feitos em Python.
 
-![Screenshot_2](https://user-images.githubusercontent.com/97618574/174687875-7308d0e1-e03d-4343-93bf-e90801a0221c.png)
-![Screenshot_3](https://user-images.githubusercontent.com/97618574/174687881-b4974bd8-a82f-4541-829a-b9707424263f.png)
+Projetos disponíveis no repositório:
+
+* GotchaTube:
+
+![screenshot_gotchatube](https://user-images.githubusercontent.com/97618574/174688657-7f010df7-1805-402b-9712-aa8bbfac7439.png)
+___
+* SinoniMEU:
+
+![screenshot_sinonimeu](https://user-images.githubusercontent.com/97618574/174688210-1bb3717d-d716-4eb8-be2a-7cf912b5fca0.jpg)
+___
+* SteamScouter:
+
+![screenshot_steamscouter](https://user-images.githubusercontent.com/97618574/174689071-90c4c2ad-7a63-495d-8123-44399345bbb8.png)
+___
