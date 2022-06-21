@@ -14,7 +14,7 @@ def clickBaixar():
 
 #função que localiza automáticamente o desktop do usuário
 def LocalizarDesktop():
-    DesktopPath = os.path.expanduser("~/Desktop")
+    DesktopPath = os.path.expanduser("~\Desktop")
     EntradaDiretorio.insert(0, DesktopPath)
 
 #Propriedades da Main Window
