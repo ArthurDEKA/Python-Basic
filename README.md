@@ -2,7 +2,11 @@
  Repositório destinado aos projetos pequenos feitos em Python.
 
 Projetos disponíveis no repositório:
+___
+* CountryGuess:
 
+![CountryGuess](https://user-images.githubusercontent.com/97618574/176353962-311dea8d-1b4f-4b85-9905-93f1576856b7.png)
+___
 * GotchaTube:
 
 ![screenshot_gotchatube](https://user-images.githubusercontent.com/97618574/174690243-6ee808b7-25ac-4d26-8073-7d8d34ab1d54.png)
